@@ -1,0 +1,13 @@
+{
+    "OWNER_IDS": [
+      1204799796662116466
+    ],
+    "name": "Detonator",
+    "server": "https://discord.gg/encoders",
+    "ch": "1216543192992972810",
+    "OpenAi": "Put-Your-OpenAI-API-Key-Here IF YOU HAVE",
+    "EXTENSIONS": ["cogs.events"],
+    "np": [
+      1204799796662116466
+    ]
+}
