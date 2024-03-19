@@ -22,7 +22,6 @@ os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
 client = Astroz()
 tree = client.tree
-TOKEN = os.getenv('TOKEN')
 openAiKey = OpenAi
 
 
@@ -257,7 +256,7 @@ async def main():
     os.system("clear")
     await client.load_extension("cogs")
     await client.load_extension("jishaku")
-    await client.start(TOKEN)
+    await client.start('MTIxNjUzNDY1MTAxMTU5NjQwOQ.GVXPOL.G9V1OVzwlJC4tM_QykY7lX7t-JqJLs_DEQOplc')
 
 
 if __name__ == "__main__":
