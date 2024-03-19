@@ -22,6 +22,7 @@ os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
 client = Astroz()
 tree = client.tree
+TOKEN = os.getenv['TOKEN']
 openAiKey = OpenAi
 
 
